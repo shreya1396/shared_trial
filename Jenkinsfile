@@ -1,5 +1,5 @@
 @Library("jenkins-shared-library") _
-    example {
+    install-go {
         projectName = "Project1"
         serverDomain = "Project1 Server Domain"
     }
