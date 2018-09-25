@@ -4,7 +4,7 @@
         serverDomain = "Project1 Server Domain"
     }
 pipeline {
-  agent any
+  agent none
   stages {
     stage('Install') {
       steps {
